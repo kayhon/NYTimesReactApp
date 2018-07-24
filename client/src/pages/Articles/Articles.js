@@ -145,13 +145,13 @@ class Articles extends Component {
                     value={this.state.yr_start}
                     onChange={this.handleInputChange}
                     name="yr_start"
-                    placeholder="Start Year (Optional)"
+                    placeholder="YYYY  [Start Year]  (Optional) --> *If Year is entered all results can be saved"
                   />
                   <Input
                     value={this.state.yr_end}
                     onChange={this.handleInputChange}
                     name="yr_end"
-                    placeholder="End Year (Optional)"
+                    placeholder="YYYY  [ End Year ]  (Optional) --> *If Year is entered all results can be saved"
                   />
                   <button
                     className="btn btn-primary"
