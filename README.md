@@ -15,7 +15,7 @@
 <br>
 <br>
 ### Home 'Search/Save' Section:<br>
-![The NyTimes React App Img](https://github.com/kayhon/NYTimesReactApp/blob/master/client/public/assets/images/home1.jpg)
+![NyTimesReact Img](public/assets/images/home2.jpg)
 <br>
 ![The NyTimes React App Img](public/assets/images/home2.jpg)
 <br>
