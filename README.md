@@ -24,7 +24,7 @@
 <br>
 ![The NyTimes React App Img](https://github.com/kayhon/NYTimesReactApp/blob/master/images/home4.jpg)<br>
 <br>
-
+![Manager View Demo-03gif](https://github.com/kayhon/bamazon/blob/master/images/03.gif)<br>
 **Instructions** - Once results are displayed, each article provides the 'User' with the option to save their favorite Article/search result using the green "Save" button located at the bottom of each result. The saved article will now appear in the "Saved Articles" section at the bottom of this 1-page application. Additionally, each 'Saved Article' provides an option to delete the result using the red "Delete" button located on the the bottom of each saved article entry.
 
 **Comments** - The NyTimes React App demonstrates CRUD, four basic functions of persistent storage, using MongoDB within a REACT built application. 
