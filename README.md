@@ -3,27 +3,19 @@
 ## To view deployed version, _**[click here!](https://fathomless-dusk-90573.herokuapp.com/)**_
 
 
-**General Overview** - The NyTimes React App, is a web application that captures the headline from http://www.nytimes.com based on a 'User's' search query that requires topic, start year, and start year for the most effective results that can be saved properly. However the 'User' can do a quick search and just enter the topic and 'Search' for immediate results. 
-
+**General Overview** - The NyTimes React App, is a web application that captures the headline from http://www.nytimes.com based on a 'User's' search query that requires topic, start year, and start year for the most effective results that can be saved properly. However the 'User' can do a quick search and just enter the topic and 'Search' for immediate results.
 <br>
-<br>
-<br>
-### Home 'Search/Save' Section:<br>
+## The Home 'Search/Save' Section:<br>
 
 ![NyTimesReact Img](https://github.com/kayhon/NYTimesReactApp/blob/master/images/home1.jpg)<br>
 <br>
-![The NyTimes React App Img](https://github.com/kayhon/NYTimesReactApp/blob/master/images/home2.jpg)<br>
 <br>
 
-### Saved/Delete Section:<br>
+## Saved/Delete Section:<br>
 ![The NyTimes React App Img](https://github.com/kayhon/NYTimesReactApp/blob/master/images/home3.jpg)<br>
 <br>
-![The NyTimes React App Img](https://github.com/kayhon/NYTimesReactApp/blob/master/images/home4.jpg)<br>
 <br>
-![Manager View Demo-03gif](https://github.com/kayhon/bamazon/blob/master/images/03.gif)<br>
-![database-after-03half-gif](https://github.com/kayhon/bamazon/blob/master/images/3half.jpg)<br>
-![Manager-add-product-04-gif](https://github.com/kayhon/bamazon/blob/master/images/04.gif)<br>
-![database-after-05-gif](https://github.com/kayhon/bamazon/blob/master/images/05.gif)<br>
+
 
 **Instructions** - Once results are displayed, each article provides the 'User' with the option to save their favorite Article/search result using the green "Save" button located at the bottom of each result. The saved article will now appear in the "Saved Articles" section at the bottom of this 1-page application. Additionally, each 'Saved Article' provides an option to delete the result using the red "Delete" button located on the the bottom of each saved article entry.
 
