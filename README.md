@@ -6,7 +6,7 @@
 
 # The NyTimes React App (with MongoDB)
 
-## To view deployed version, _**[click here!](https://notyetmayne_65.herokuapp.com/)**_
+## To view deployed version, _**[click here!](https://fathomless-dusk-90573.herokuapp.com/)**_
 
 
 **General Overview** - The NyTimes React App, is a web application that captures the headline from http://www.nytimes.com based on a 'User's' search query that requires topic, start year, and start year for the most effective results that can be saved properly. However the 'User' can do a quick search and just enter the topic and 'Search' for immediate results. 
