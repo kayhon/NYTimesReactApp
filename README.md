@@ -32,7 +32,7 @@
 ## Heroku Link
 The link above/below above gives you direct access to The NyTimes React App using your web browser via the Heroku web service. (NOTE: There will be a momentary delay when first accessing the Heroku servers.)
 
-* [The NyTimes React App](https://rch.herokuapp.com/)
+* [The NyTimes React App](https://fathomless-dusk-90573.herokuapp.com/)
 
 ## Local Environment Setup
 To use The NyTimes React App web application application from your local environment, you must accomplish the following steps below:
