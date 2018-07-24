@@ -15,14 +15,14 @@
 <br>
 <br>
 ### Home 'Search/Save' Section:<br>
-![NyTimesReact Img](public/assets/images/home2.jpg)
+![NyTimesReact Img](https://github.com/kayhon/NYTimesReactApp/blob/master/images/home1.jpg)<br>
 <br>
-![The NyTimes React App Img](public/assets/images/home2.jpg)
+![The NyTimes React App Img](https://github.com/kayhon/NYTimesReactApp/blob/master/images/home2.jpg)<br>
 <br>
 ### Saved/Delete Section:<br>
-![The NyTimes React App Img](public/assets/images/home3.jpg)
+![The NyTimes React App Img](https://github.com/kayhon/NYTimesReactApp/blob/master/images/home3.jpg)<br>
 <br>
-![The NyTimes React App Img](public/assets/images/home4.jpg)
+![The NyTimes React App Img](https://github.com/kayhon/NYTimesReactApp/blob/master/images/home4.jpg)<br>
 <br>
 
 **Instructions** - Once results are displayed, each article provides the 'User' with the option to save their favorite Article/search result using the green "Save" button located at the bottom of each result. The saved article will now appear in the "Saved Articles" section at the bottom of this 1-page application. Additionally, each 'Saved Article' provides an option to delete the result using the red "Delete" button located on the the bottom of each saved article entry.
