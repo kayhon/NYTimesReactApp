@@ -12,7 +12,7 @@
 <br>
 
 ## Saved/Delete Section:<br>
-![The NyTimes React App Img](https://github.com/kayhon/NYTimesReactApp/blob/master/images/home3.jpg)<br>
+![The NyTimes React App Img](https://github.com/kayhon/NYTimesReactApp/blob/master/images/home4.jpg)<br>
 <br>
 <br>
 
