@@ -7,7 +7,7 @@
 <br>
 ## The Home 'Search/Save' Section:<br>
 
-![NyTimesReact Img](https://github.com/kayhon/NYTimesReactApp/blob/master/images/home1.jpg)<br>
+![NyTimesReact Img](https://github.com/kayhon/NYTimesReactApp/blob/master/images/home2.jpg)<br>
 <br>
 <br>
 
