@@ -9,7 +9,6 @@ export default {
     axios({ method: "DELETE", url: "/api/articles", data: { _id: data._id } })
 };
 
-
 // import axios from "axios";------------
 
 // export default {

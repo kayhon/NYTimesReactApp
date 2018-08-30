@@ -26,7 +26,6 @@ class Articles extends Component {
   //   this.loadBooks();
   // }
 
-
   loadSaved = () =>
     API.getArticle()
       .then(({ data: articles }) =>
@@ -37,11 +36,11 @@ class Articles extends Component {
       )
       .catch(err => console.log(err));
 
-      // loadBooks = () => {
-      //   API.getBooks()
-      //     .then(res => this.setState({ books: res.data }))
-      //     .catch(err => console.log(err));
-      // };
+  // loadBooks = () => {
+  //   API.getBooks()
+  //     .then(res => this.setState({ books: res.data }))
+  //     .catch(err => console.log(err));
+  // };
 
   handleFormSearch = event => {
     event.preventDefault();
@@ -49,9 +48,9 @@ class Articles extends Component {
     const queryURLBase =
       "https://api.nytimes.com/svc/search/v2/articlesearch.json";
 
-//       7/23/18 Thanks for registering for a New York Times API Key.
-// http://developer.nytimes.com/#h2-responses
-// Here's your API Key: c81a31cc54e548f6bd42f53a80d687bf
+    //       7/23/18 Thanks for registering for a New York Times API Key.
+    // http://developer.nytimes.com/#h2-responses
+    // Here's your API Key: c81a31cc54e548f6bd42f53a80d687bf
 
     const authKey = "c81a31cc54e548f6bd42f53a80d687bf";
 
@@ -76,7 +75,7 @@ class Articles extends Component {
 
     // https://data-gov.tw.rpi.edu/wiki/How_to_use_New_York_Times_Article_Search_API
     //http://www.storybench.org/working-with-the-new-york-times-api-in-r/
-    
+
     API.callURL(queryURL)
       .then(res =>
         this.setState({
@@ -115,15 +114,27 @@ class Articles extends Component {
     return (
       <div className="container">
         {/* <div className="jumbotron" style={{ backgroundColor: "#2fa4e7" }}> */}
-         {/* <div className="jumbotron" style={{'backgroundImage': 'url(./assets/images/newspaper1.png)', backgroundColor: "",'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'top', /*'backgroundSize': '100% 100%', 'backgroundAttachment': 'fixed'}}>  */}
-        <div className="jumbotron" style={{'backgroundImage': 'url(./assets/images/ny2.jpg)', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center', 'backgroundSize': '100% 100%',  /*'backgroundAttachment': 'fixed'*/ }}>
-
-
-
-          <h1 className="text-center" style={{ color: 'black', backgroundColor: "white" /*"#2fa4e7"*/,  fontFamily: 'Old English Text MT', 'backgroundSize': '100% 100%'}}>
+        {/* <div className="jumbotron" style={{'backgroundImage': 'url(./assets/images/newspaper1.png)', backgroundColor: "",'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'top', /*'backgroundSize': '100% 100%', 'backgroundAttachment': 'fixed'}}>  */}
+        <div
+          className="jumbotron"
+          style={{
+            backgroundImage: "url(./assets/images/ny2.jpg)",
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: "center",
+            backgroundSize: "100% 100%" /*'backgroundAttachment': 'fixed'*/
+          }}
+        >
+          <h1
+            className="text-center"
+            style={{
+              color: "black",
+              backgroundColor: "white" /*"#2fa4e7"*/,
+              fontFamily: "Old English Text MT",
+              backgroundSize: "100% 100%"
+            }}
+          >
             <strong>The newYorkTimes React App</strong>
             {/* <strong>New York Times Search</strong> */}
-
           </h1>
         </div>
 
@@ -131,7 +142,9 @@ class Articles extends Component {
           <div className="col-sm-12">
             <div className="panel panel-primary">
               <div className="panel-heading">
-                <div className="panel-title text-center"><h1>Search</h1></div>
+                <div className="panel-title text-center">
+                  <h1>Search</h1>
+                </div>
               </div>
               <div className="panel-body text-center">
                 <form>
@@ -170,7 +183,9 @@ class Articles extends Component {
           <div className="col-sm-12">
             <div className="panel panel-primary">
               <div className="panel-heading">
-                <div className="panel-title text-left"><h2>Results:</h2></div>
+                <div className="panel-title text-left">
+                  <h2>Results:</h2>
+                </div>
               </div>
               <div className="card card" />
               {this.state.newArticles.map(article => (
@@ -209,7 +224,9 @@ class Articles extends Component {
           <div className="col-sm-12">
             <div className="panel panel-primary">
               <div className="panel-heading">
-                <div className="card-title text-center"><h1>Saved Articles</h1></div>
+                <div className="card-title text-center">
+                  <h1>Saved Articles</h1>
+                </div>
               </div>
               <div className="card card" />
               {/* <div className="card-body or card card or panel body" /> */}

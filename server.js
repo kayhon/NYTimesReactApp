@@ -20,5 +20,3 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/K_nytreact");
 app.listen(PORT, function() {
   console.log(`API Server now listening on PORT ${PORT}!`);
 });
-
-    

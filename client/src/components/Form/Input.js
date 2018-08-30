@@ -5,4 +5,3 @@ export const Input = props => (
     <input className="form-control" {...props} />
   </div>
 );
-
